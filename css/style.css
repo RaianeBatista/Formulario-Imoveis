@@ -1,0 +1,137 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(142, 162, 188);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #333;
+}
+
+p,
+label {
+  color: #f1dddd;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='date'],
+input[type='file'],
+textarea {
+  width: 400px;
+}
+
+textarea {
+  padding: 10px 5px;
+}
+
+/* Cabeçalho */
+.header {
+  height: 160px;
+  padding: 20px;
+  background-image: url('../img.webp');
+  background-size: contain;
+  background-position: center;
+}
+.header h3 {
+  color: #fff;
+  margin-top: 0;
+}
+
+/* form container*/
+.form-container {
+  background-color: #435a6d;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* form header */
+.form-header {
+  border-bottom: 1px solid #3f7990;
+  height: 45px;
+}
+.form-header p {
+  color: rgb(57, 187, 223);
+  border-bottom: 1px solid #0ee0dd;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  height: 45px;
+  line-height: 45px;
+}
+
+/* form body */
+.form-body {
+  padding: 30px;
+}
+
+.form-title {
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.form-body p {
+  margin-bottom: 20px;
+}
+
+.required-field {
+  color: red;
+}
+
+.box-input {
+  margin-bottom: 35px;
+}
+
+.block {
+  display: block;
+}
+
+.optional-box {
+  display: inline-block;
+  margin: 0 50px 50px 0;
+}
+
+.optional-list li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.box-input p {
+  margin-bottom: 15px;
+}
+
+.btn-submit {
+  background-color: #10749b;
+  color: #fff;
+  border: 2px solid transparent;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.2s;
+  border-radius: 15px;
+}
+
+.btn-submit:hover {
+  background-color: #3f7990;
+  border-color: cadetblue;
+  color: #fff;
+}
